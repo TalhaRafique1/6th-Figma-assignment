@@ -6,7 +6,7 @@ import image from '../../../public/images/Frame 1.png';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-white border-t border-gray-200 py-8 px-4 md:px-16">
-      {/* Newsletter Section */}
+      
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-6">
         <div>
           <h2 className="text-[18px] font-bold text-[#000000]">
@@ -37,10 +37,10 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Links Section */}
+      
       <div className="max-w-7xl mx-auto mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 py-9">
         <div className="flex items-center space-x-2 pt-5 pb-5">
-          {/* Logo and Text */}
+          
           <Image src={image} alt="Logo" height={40} width={40} className="object-contain" />
           <h3 className="text-xl font-bold text-[#000000]">Ddsgnr</h3>
         </div>
@@ -77,10 +77,10 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Divider */}
+  
       <hr className="border-t border-gray-300 my-8" />
 
-      {/* Bottom Section */}
+      
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[#000000] text-sm">
         <p>© 2023 Ddsgnr. All rights reserved.</p>
         <div className="flex space-x-2 mt-2 md:mt-0">
