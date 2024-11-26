@@ -15,9 +15,9 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#F7F7F7] shadow-md">
-      {/* Navbar container */}
+      
       <div className="flex items-center justify-between px-6 py-4 md:px-10">
-        {/* Logo */}
+        
         <div className="flex items-center gap-2">
           <div className="w-[32px] h-[32px] flex items-center">
             <Image src={frame} alt="Logo" width={32} height={32} />
@@ -25,7 +25,7 @@ const Navbar = () => {
           <h1 className="text-xl font-bold font-inter">Ddsgnr</h1>
         </div>
 
-        {/* Hamburger Icon for Mobile */}
+        
         <button
           className="block md:hidden text-gray-600"
           onClick={toggleMobileMenu}
@@ -33,7 +33,7 @@ const Navbar = () => {
           {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
 
-        {/* Desktop Nav Links */}
+        
         <div className="hidden md:flex items-center justify-between w-full ml-10">
           <ul className="flex gap-8 ml-auto">
             <li>
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      
       {isMobileMenuOpen && (
         <nav className="absolute top-[72px] left-0 w-full bg-[#F7F7F7] shadow-lg z-50">
           <ul className="flex flex-col items-start p-4 gap-4">
@@ -106,7 +106,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Mobile Navigation Links */}
+            
             <li>
               <a href="#" className="block py-2 hover:text-gray-700">
                 Home
@@ -138,7 +138,7 @@ const Navbar = () => {
               </a>
             </li>
 
-            {/* Mobile Buttons */}
+            
             <div className="w-full flex flex-col gap-4 mt-4">
               <button className="w-full px-4 py-2 border border-gray-400 text-gray-600 rounded hover:bg-gray-200">
                 Login
