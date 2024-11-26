@@ -86,7 +86,7 @@ const OurTeam: React.FC = () => {
             key={index}
             className="p-6 text-center bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-between"
           >
-            {/* Image */}
+            
             <div className="w-32 h-32 mx-auto mb-4 flex justify-center items-center">
               <Image
                 src={member.image}
@@ -97,13 +97,13 @@ const OurTeam: React.FC = () => {
               />
             </div>
 
-            {/* Name and Role */}
+            
             <div className="flex flex-col items-center mb-6">
               <h3 className="text-[20px] font-bold text-[#000000]">{member.name}</h3>
               <p className="text-[18px] text-[#555555]">{member.role}</p>
             </div>
 
-            {/* Social Icons */}
+            
             <div className="flex justify-center gap-4 mt-4 py-4">
               <a
                 href={member.socialLinks.linkedin}
